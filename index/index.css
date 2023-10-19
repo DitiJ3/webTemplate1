@@ -244,3 +244,47 @@ header{
 }
 
 
+/* ---------------------------SERVICES---------------------------- */
+
+.services{
+    margin-top: 10rem;
+}
+
+.services__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.service{
+    background-color: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.service:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.service img{
+    transition: var(--transition);
+}
+
+.service:hover img{
+    filter: brightness(80%);
+}
+
+.service__info{
+    padding: 2rem;
+}
+
+.service__info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+/* ---------------------------FAQ---------------------------- */
+
+
